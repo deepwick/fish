@@ -11,9 +11,11 @@ Deepwick syntax highlighting colors for the [fish shell](https://fishshell.com).
 ## Install
 
 ```sh
-mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/fish/themes"
-cp deepwick.theme "${XDG_CONFIG_HOME:-$HOME/.config}/fish/themes/"
+mkdir -p ~/.config/fish/themes
+cp deepwick.theme ~/.config/fish/themes/
 ```
+
+If you set `XDG_CONFIG_HOME`, use that instead of `~/.config`.
 
 ## Activate
 
